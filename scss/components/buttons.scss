@@ -1,0 +1,32 @@
+@import '../base/variables.scss';
+
+@import '../utils/mixins.scss';
+@import '../utils/placeholders.scss';
+
+.button {
+	display: inline-flex;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: blue;
+	overflow: hidden;
+}
+
+.button-success {
+	@extend %button;
+	width: calc((60px * 3) + (1px / 6));
+
+	background-color: green;
+	padding: 20px;
+	@include bordered(orange);
+	@include text(20px, 500, blue);
+}
+.button-error {
+	@extend %button;
+	background-color: red;
+	@include bordered(purple);
+	font-size: calc(#{$mainFontSize} * 1.5);
+}
+
+.button-error {
+	color: black;
+}

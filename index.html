@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+		/>
+		<link rel="stylesheet" href="./css/main.css">
+		<title>Photo Blog</title>
+	</head>
+	<body>
+		<header class="header">
+			<!-- Контейнер -->
+			<div class="header__container container">
+				<nav class="header-navigation navigation-header   ">
+					<ul class="header__list">
+						<li class="header__item">
+							<a href="/" class="header__link">lifestyle</a>
+						</li>
+						<li class="header__item">
+							<a href="/" class="navigation header__link navigation header__link active">photo</a>
+						</li>
+						<li class="header__item">
+							<a href="/" class="navigation header__link navigation header__link hidden">musik</a>
+						</li>
+						<li class="header__item">
+							<a href="/" class="header__link">travel</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!-- Кінець Контейнер -->
+		</header>
+		<main class="gallery">
+			<section class="gallery__section">
+				<!-- Контейнер -->
+				<div class="gallery__container container">
+					<!-- Обгортка для статей -->
+					<div class="gallery__articles">
+						<!-- Стаття 1 -->
+						<article class="gallery__article article-gallery">
+							<div class="article-gallery__thumb">
+							<img
+								class="article-gallery__image"
+								src="./img/musiсfestival.jpg"
+								alt="Music festival"
+							/>
+							<div class="article-gallery__overlay">
+								<div class="article-gallery__actions">
+								  <button aria-label="У вибране" class="article-gallery__item">
+									<svg class="article-gallery__icon">
+									  <use href="./img/sprite.svg#delete"></use>
+									</svg>
+								  </button>
+								  <button aria-label="У вибране" class="article-gallery__item">
+									<svg class="article-gallery__icon">
+									  <use href="./img/sprite.svg#work"></use>
+									</svg>
+								  </button>
+								  <button aria-label="У вибране" class="article-gallery__item">
+									<svg class="article-gallery__icon">
+									  <use href="./img/sprite.svg#camera"></use>
+									</svg>
+								  </button>
+								</div>
+							  </div>
+							</div>
+							
+							<div class="article-gallery__body">
+								<div class="article-gallery__name">LIFESTYLE</div>
+								<h2 class="article-gallery__title">
+									More than just a music festival
+								</h2>
+								<p class="article-gallery__text">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Suscipit earum, eaque fuga
+									laudantium voluptates, cum reprehenderit
+									ratione eligendi natus veritatis ipsam,
+									nobis sint magnam corrupti dolorum mollitia
+									officiis perferendis quae!
+								</p>
+							</div>
+						</article>
+						<!-- Кінець Стаття 1 -->
+						<!-- Стаття 2 -->
+						<article class="gallery-article">
+							<img
+								class="gallery-image"
+								src="./img/coffee.jpg"
+								alt="Coffee"
+							/>
+							<div class="gallery-body">
+								<div class="gallery-name">LIFESTYLE</div>
+								<h2 class="gallery-title">
+									Life tastes better with coffee
+								</h2>
+								<p class="gallery-text">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Suscipit earum, eaque fuga
+									laudantium voluptates, cum reprehenderit
+									ratione eligendi natus veritatis ipsam,
+									nobis sint magnam corrupti dolorum mollitia
+									officiis perferendis quae!
+								</p>
+							</div>
+						</article>
+						<!-- Кінець Стаття 2 -->
+						<!-- Стаття 3 -->
+						<article class="gallery-article">
+							<img
+								class="gallery-image"
+								src="./img/dream.jpg"
+								alt="American dream"
+							/>
+							<div class="gallery-body">
+								<div class="gallery-name">LIFESTYLE</div>
+								<h2 class="gallery-title">American dream</h2>
+								<p class="gallery-text">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Suscipit earum, eaque fuga
+									laudantium voluptates, cum reprehenderit
+									ratione eligendi natus veritatis ipsam,
+									nobis sint magnam corrupti dolorum mollitia
+									officiis perferendis quae!
+								</p>
+							</div>
+						</article>
+						<!-- Кінець Стаття 3 -->
+						<!-- Стаття 4 -->
+						<article class="gallery-article">
+							<img
+								class="gallery-image"
+								src="./img/alps.jpg"
+								alt="A day exploring the Alps"
+							/>
+							<div class="gallery-body">
+								<div class="gallery-name">LIFESTYLE</div>
+								<h2 class="gallery-title">
+									A day exploring the Alps
+								</h2>
+								<p class="gallery-text">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Suscipit earum, eaque fuga
+									laudantium voluptates, cum reprehenderit
+									ratione eligendi natus veritatis ipsam,
+									nobis sint magnam corrupti dolorum mollitia
+									officiis perferendis quae!
+								</p>
+							</div>
+						</article>
+						<!-- Кінець Стаття 4 -->
+						<!-- Стаття 5 -->
+						<article class="gallery-article">
+							<img
+								class="gallery-image"
+								src="./img/running.jpg"
+								alt="Top 10 song for running"
+							/>
+							<div class="gallery-body">
+								<div class="gallery-name">LIFESTYLE</div>
+								<h2 class="gallery-title">
+									Top 10 song for running
+								</h2>
+								<p class="gallery-text">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Suscipit earum, eaque fuga
+									laudantium voluptates, cum reprehenderit
+									ratione eligendi natus veritatis ipsam,
+									nobis sint magnam corrupti dolorum mollitia
+									officiis perferendis quae!
+								</p>
+							</div>
+						</article>
+						<!-- Кінець Стаття 5 -->
+						<!-- Стаття 6 -->
+						<article class="gallery-article">
+							<img
+								class="gallery-image"
+								src="./img/winterdays.jpg"
+								alt="Cold winter days"
+							/>
+							<div class="gallery-body">
+								<div class="gallery-name">LIFESTYLE</div>
+								<h2 class="gallery-title">Cold winter days</h2>
+								<p class="gallery-text">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit. Suscipit earum, eaque fuga
+									laudantium voluptates, cum reprehenderit
+									ratione eligendi natus veritatis ipsam,
+									nobis sint magnam corrupti dolorum mollitia
+									officiis perferendis quae!
+								</p>
+							</div>
+						</article>
+						<!-- Кінець Стаття 6 -->
+					</div>
+					<!-- Кінець Обгортка для статей -->
+					<!-- Кнопка -->
+					<button class="gallery-button" type="button">
+						Load more
+					</button>
+					<ul class="gallary__buttons buttons-gallary">
+						<li class="buttons-gallary__item">
+							<button class="buttons-gallary__button button">
+								Lorem
+							</button>
+						</li>
+						<li class="buttons-gallary__item">
+							<button class="buttons-gallary__button button-success">
+								Lorem
+							</button>
+						</li>
+						<li class="buttons-gallary__item">
+							<button class="buttons-gallary__button button-error">
+								Lorem
+							</button>
+						</li>
+					</ul>
+					<!--Кінець Кнопка -->
+				</div>
+				<!-- Кінець Контейнер -->
+			</section>
+			<section class="gallery__cycle cycle gallery">
+				<div class="cycle-gallary__container container">
+					<ul class="cycle-gallary__list">
+						<li class="cycle-gallary__item">
+							<p class="cycle-gallary__text cycle-gallary__text-black">Lorem ipsum dolor sit amet.</p>
+						</li>
+						<li class="cycle-gallary__item">
+							<p class="cycle-gallary__text cycle-gallary__text-red">Lorem ipsum dolor sit amet.</p>
+						</li>
+						<li class="cycle-gallary__item">
+							<p class="cycle-gallary__text cycle-gallary__text-lightsalmon">Lorem ipsum dolor sit amet.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+		<script src="./js/modal.js"></script>
+	</body>
+</html>

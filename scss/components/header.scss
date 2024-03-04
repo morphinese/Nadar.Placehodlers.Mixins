@@ -1,0 +1,45 @@
+@import '../base/variables.scss';
+
+.header {
+	margin-top: 71px;
+	margin-bottom: 92px;
+	// .header-navigation
+
+	&-navigation {
+	}
+
+	// .header__container
+
+	&__container {
+	}
+
+	// .header__list
+
+	&__list {
+		display: flex;
+		flex-direction: row;
+		gap: 100px;
+		justify-content: center;
+	}
+
+	// .header__item
+
+	&__item {
+	}
+
+	// .header__link
+
+	&__link {
+		text-transform: uppercase;
+		color: $darkWhiteColor;
+		&:hover {
+			color: $blueColor;
+		}
+	}
+}
+.navigation {
+	// .navigation-header
+
+	&-header {
+	}
+}
